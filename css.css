@@ -1,0 +1,39 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+p { 
+    text-align: justify;
+    color: blue;
+}
+
+.container{
+    border-radius: 10px;
+}
+img {
+    width: 600px;
+    height: 500px;
+}
+
+.F_oot img{
+    width: 90%;
+    height: 250px;
+    margin: 50px;
+}
+
+@media (max-width: 600px) {
+img{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.F_oot img{
+    width:400px;
+    height: 150px;
+}
+}
